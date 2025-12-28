@@ -1,23 +1,11 @@
----
-language: en
-license: apache-2.0
-pipeline_tag: reasoning
-tags:
-  - reasoning
-  - neuro-symbolic
-  - chain-of-thought
-  - graph-ml
-  - self-verification
-model_name: Cognitron-Sigma
----
 
-# Cognitron-Σ 🧠
+# Cognitron-Σ 
 
 **Cognitron-Σ** is a **Level-5 hybrid neuro-symbolic reasoning engine** designed to solve complex logical and conceptual queries through **multi-stage reasoning, graph intelligence, and self-verification loops**.
 
 Unlike standard LLM pipelines, Cognitron-Σ explicitly separates **symbolic inference**, **neural chain-of-thought reasoning**, and **error correction**, producing explainable and verifiable outputs.
 
----
+
 
 ## 🚀 Key Capabilities
 
@@ -28,7 +16,7 @@ Unlike standard LLM pipelines, Cognitron-Σ explicitly separates **symbolic infe
 - 📊 Confidence-Aware Output Scoring
 - 🤗 Hugging Face–ready Inference API
 
----
+
 
 ## 🧠 Architecture Overview
 
@@ -50,7 +38,7 @@ Error Correction Loop
 Final Answer + Confidence + Reasoning Graph
 ```
 
----
+
 
 ## 📥 Input Format
 
@@ -60,7 +48,7 @@ Final Answer + Confidence + Reasoning Graph
 }
 ```
 
----
+
 
 ## 📤 Output Format
 
@@ -81,7 +69,7 @@ Final Answer + Confidence + Reasoning Graph
 }
 ```
 
----
+
 
 ## 🛠️ Installation & Usage
 
@@ -96,7 +84,7 @@ cd cognitron-sigma
 python inference.py
 ```
 
----
+
 
 ## 📁 Project Structure
 
@@ -113,7 +101,7 @@ cognitron-sigma/
 └── requirements.txt
 ```
 
----
+
 
 ## 🎯 Use Cases
 
@@ -123,7 +111,7 @@ cognitron-sigma/
 - LLM orchestration & verification
 - Academic demos & prototypes
 
----
+
 
 ## 🔮 Future Work
 
@@ -133,7 +121,6 @@ cognitron-sigma/
 - Multi-query reasoning memory
 - Formal logic solver integration
 
----
 
 ## ⚠️ Limitations
 
@@ -141,21 +128,8 @@ cognitron-sigma/
 - Not optimized for low-latency production
 - Symbolic rules are generic
 
----
 
 ## 📜 License
 
 Apache License 2.0
 
----
-
-## ⭐ Why Cognitron-Σ?
-
-- Research-first design
-- Explainable reasoning
-- Hybrid symbolic + neural
-- Future-proof architecture
-
----
-
-**Cognitron-Σ is built for the next generation of reasoning systems.**
