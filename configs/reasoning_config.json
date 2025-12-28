@@ -1,0 +1,12 @@
+{
+  "stages": [
+    "parse",
+    "symbolic",
+    "neural",
+    "verify",
+    "correct"
+  ],
+  "max_depth": 5,
+  "passes": 3,
+  "enable_graph_reasoning": true
+}

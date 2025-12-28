@@ -1,0 +1,9 @@
+{
+  "node_types": [
+    "concept",
+    "relation",
+    "constraint"
+  ],
+  "max_nodes": 128,
+  "prune_threshold": 0.2
+}
